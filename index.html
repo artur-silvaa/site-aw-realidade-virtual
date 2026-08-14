@@ -1,628 +1,822 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/fonts.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Aw - Realidade Virtual</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Aw - Realidade Virtual</title>
 </head>
 
-
 <body class="home-page">
-    <header class="site-header" data-animate="down">
-        <a href="index.html" class="site-header__brand" aria-label="Ir para a página inicial">
-            <img src="assets/logos/AW-logo.svg" alt="AW Realidade Virtual">
-        </a>
 
+    <header class="site-header" data-animate="down">
+        <a href="index.html" class="site-header__brand" aria-label="Ir para a página inicial">
+            <img src="ativos/logos/AW-logo.svg" alt="AW Realidade Virtual">
+        </a>
 
-        <button class="menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false"
-            aria-controls="site-navigation">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false"
+            aria-controls="site-navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
 
+        <nav class="site-nav" id="site-navigation" aria-label="Navegação principal">
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html" class="nav-link-item">Home</a>
+                </li>
 
-        <nav class="site-nav" id="site-navigation" aria-label="Navegação principal">
-            <ul class="nav-links">
-                <li>
-                    <a href="index.html" class="nav-link-item">Home</a>
-                </li>
+                <li>
+                    <a href="about.html" class="nav-link-item">Sobre</a>
+                </li>
 
+                <li>
+                    <a href="projects.html" class="nav-link-item">Projetos</a>
+                </li>
 
-                <li>
-                    <a href="about.html" class="nav-link-item">Sobre</a>
-                </li>
+                <li>
+                    <a href="events.html" class="nav-link-item">Eventos</a>
+                </li>
 
+                <li>
+                    <a href="contact.html" class="nav-link-item">Contato</a>
+                </li>
 
-                <li>
-                    <a href="projects.html" class="nav-link-item">Projetos</a>
-                </li>
+                <li class="nav-login">
+                    <a href="login.html" class="nav-link-item">
+                        <i class="fa-solid fa-user" aria-hidden="true"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
 
-                <li>
-                    <a href="events.html" class="nav-link-item">Eventos</a>
-                </li>
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <div class="hero_content">
+                <h1 class="hero_title" data-animate="left">
+                    O Próximo Nível <br>da Realidade <br>Não é Aqui.
+                </h1>
 
+                <p class="hero_subtitle" data-animate="up" data-animate-delay="1">
+                    Explore uma imersão completa onde conecta estudo,
+                    criação de projetos e o mundo gamer. Sinta o futuro hoje.
+                </p>
 
-                <li>
-                    <a href="contact.html" class="nav-link-item">Contato</a>
-                </li>
+                <div class="hero_cta-group" data-animate="up" data-animate-delay="2">
+                    <a href="events.html" class="hero_button">Confira os eventos</a>
+                    <a href="projects.html" class="hero_button hero_button--outline">Ver projetos</a>
+                </div>
+            </div>
 
+            <div class="hero_media" data-animate="right" data-animate-delay="1">
+                <img src="ativos/img/content/hero_homem-VR.png"
+                    alt="Pessoa em experiência imersiva com realidade virtual">
+            </div>
+        </section>
 
-                <li class="nav-login">
-                    <a href="login.html" class="nav-link-item">
-                        <i class="fa-solid fa-user" aria-hidden="true"></i>
-                        <span>Login</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <!-- Parceiros -->
+        <section class="partners">
+            <div class="partners_track">
+                <ul class="partners_list" data-animate="fade">
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/aus-design.svg" alt="Aus Design">
+                    </li>
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/syntex.svg" alt="Syntex Learning">
+                    </li>
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/logo-infinity.svg" alt="Infinity">
+                    </li>
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/vr-game.svg" alt="VR Games">
+                    </li>
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/logo-ipsum.svg" alt="Logo">
+                    </li>
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/velure-brand.svg" alt="Velure Brand">
+                    </li>
 
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/aus-design.svg" alt="">
+                    </li>
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/syntex.svg" alt="">
+                    </li>
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/logo-infinity.svg" alt="">
+                    </li>
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/vr-game.svg" alt="">
+                    </li>
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/logo-ipsum.svg" alt="">
+                    </li>
+                    <li class="partners_item">
+                        <img src="ativos/logos/partenrs/velure-brand.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <main>
+        <!-- Pilares -->
+        <section class="pillars" id="pillars">
+            <div class="pillars_header" data-animate="up">
+                <h2 class="pillars_title">Pilares da Imersão</h2>
 
+                <p class="pillars_subtitle">
+                    Explore como a realidade virtual transforma a forma
+                    de aprender, criar e viver experiências digitais.
+                </p>
+            </div>
 
-        <!-- Hero -->
-        <section class="hero" id="hero">
-            <div class="hero_content">
-                <h1 class="hero_title" data-animate="left">
-                    O Próximo Nível <br>da Realidade <br>Não é Aqui.
-                </h1>
-                <p class="hero_subtitle" data-animate="up" data-animate-delay="1">
-                    Explore uma imersão completa onde conecta estudo,
-                    criação de projetos e o mundo gamer. Sinta o futuro hoje.
-                </p>
-                <div class="hero_cta-group" data-animate="up" data-animate-delay="2">
-                    <a href="events.html" class="hero_button">Confira os eventos</a>
-                    <a href="projects.html" class="hero_button hero_button--outline">Ver projetos</a>
-                </div>
-            </div>
-            <div class="hero_media" data-animate="right" data-animate-delay="1">
-                <img src="assets/img/content/hero_homem-VR.png"
-                    alt="Pessoa em experiência imersiva com realidade virtual">
-            </div>
-        </section>
+            <ul class="pillars_list">
+                <li class="pillars_card" data-animate="scale" data-animate-delay="1">
+                    <img src="ativos/icons/estudo-imersivo.svg" alt="Ícone de Estudo Imersivo">
+                    <h3 class="pillars_card-title">Estudo Imersivo</h3>
+                    <p class="pillars_card-text">
+                        Aprender ganha uma nova dimensão quando você entra no conteúdo e
+                        explora cada conceito de forma viva, clara e envolvente.
+                    </p>
+                </li>
 
+                <li class="pillars_card" data-animate="scale" data-animate-delay="2">
+                    <img src="ativos/icons/projetos.svg" alt="Ícone de Projeto e Arquitetura">
+                    <h3 class="pillars_card-title">Projetos</h3>
+                    <p class="pillars_card-text">
+                        Visualize seu projeto antes de executá-lo, explore cada ambiente com
+                        profundidade e compreenda cada detalhe antes de ganhar forma.
+                    </p>
+                </li>
 
-        <!-- Parceiros -->
-        <section class="partners">
-            <div class="partners_track">
-                <ul class="partners_list" data-animate="fade">
-                    <li class="partners_item"><img src="assets/logos/partenrs/aus-design.svg" alt="Aus Design"></li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/syntex.svg" alt="Syntex Learning"></li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/logo-infinity.svg" alt="infinity"></li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/vr-game.svg" alt="VR Games"></li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/logo-ipsum.svg" alt="Logo"></li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/velure-brand.svg" alt="Velure Brand">
-                    </li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/aus-design.svg" alt=""></li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/syntex.svg" alt=""></li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/logo-infinity.svg" alt=""></li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/vr-game.svg" alt=""></li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/logo-ipsum.svg" alt=""></li>
-                    <li class="partners_item"><img src="assets/logos/partenrs/velure-brand.svg" alt=""></li>
-                </ul>
-            </div>
-        </section>
+                <li class="pillars_card" data-animate="scale" data-animate-delay="3">
+                    <img src="ativos/icons/ultra-gaming.svg" alt="Ícone de Ultra Gaming">
+                    <h3 class="pillars_card-title">Ultra Gaming</h3>
+                    <p class="pillars_card-text">
+                        Entre no jogo de verdade, sinta a pressão de cada partida e viva uma
+                        imersão com tecnologia que leva você para dentro da ação.
+                    </p>
+                </li>
 
+                <li class="pillars_card" data-animate="scale" data-animate-delay="4">
+                    <img src="ativos/icons/arquitetura.svg" alt="Ícone de Arquitetura">
+                    <h3 class="pillars_card-title">Arquitetura</h3>
+                    <p class="pillars_card-text">
+                        Explore espaços antes de construí-los e sinta cada detalhe com
+                        tecnologia imersiva que colocam você dentro do projeto.
+                    </p>
+                </li>
+            </ul>
+        </section>
 
-        <!-- Pilares -->
-        <section class="pillars" id="pillars">
-            <div class="pillars_header" data-animate="up">
-                <h2 class="pillars_title">Pilares da Imersão</h2>
-                <p class="pillars_subtitle">
-                    Explore como a realidade virtual transforma a forma
-                    de aprender, criar e viver experiências digitais.
-                </p>
-            </div>
-            <ul class="pillars_list">
-                <li class="pillars_card" data-animate="scale" data-animate-delay="1">
-                    <img src="assets/icons/estudo-imersivo.svg" alt="Ícone de Estudo Imersivo">
-                    <h3 class="pillars_card-title">Estudo Imersivo</h3>
-                    <p class="pillars_card-text">Aprender ganha uma nova dimensão quando você entra no conteúdo e
-                        explora cada conceito de forma viva, clara e envolvente.</p>
-                </li>
-                <li class="pillars_card" data-animate="scale" data-animate-delay="2">
-                    <img src="assets/icons/projetos.svg" alt="Ícone de Projeto e Arquitetura">
-                    <h3 class="pillars_card-title">Projetos</h3>
-                    <p class="pillars_card-text">Visualize seu projeto antes de executá-lo, explore cada ambiente com
-                        profundidade e compreenda cada detalhe antes de ganhar forma.</p>
-                </li>
-                <li class="pillars_card" data-animate="scale" data-animate-delay="3">
-                    <img src="assets/icons/ultra-gaming.svg" alt="Ícone de Ultra Gaming">
-                    <h3 class="pillars_card-title">Ultra Gaming</h3>
-                    <p class="pillars_card-text">Entre no jogo de verdade, sinta a pressão de cada partida e viva uma
-                        imersão com tecnologia que leva você para dentro da ação.</p>
-                </li>
-                <li class="pillars_card" data-animate="scale" data-animate-delay="4">
-                    <img src="assets/icons/arquitetura.svg" alt="Ícone de Arquitetura">
-                    <h3 class="pillars_card-title">Arquitetura</h3>
-                    <p class="pillars_card-text">Explore espaços antes de construí-los e sinta cada detalhe com
-                        tecnologia imersiva que colocam você dentro do projeto.</p>
-                </li>
-            </ul>
-        </section>
+        <!-- Sobre -->
+        <section class="about" id="about">
+            <div class="about_media" data-animate="left">
+                <img src="ativos/img/content/menino-VR.PNG"
+                    alt="Experiência de realidade virtual com ambiente futurista">
+            </div>
 
+            <div class="about_content" data-animate="right" data-animate-delay="2">
+                <div class="about_header">
+                    <h2 class="about_title">O futuro do conhecimento já está aqui, e você pode fazer parte dele.</h2>
+                    <p class="about_subtile">Com a realidade virtual, criar se torna uma experiência imersiva.</p>
+                </div>
 
-        <!-- Sobre -->
-        <section class="about" id="about">
-            <div class="about_media" data-animate="left">
-                <img src="assets/img/content/menino-VR.PNG"
-                    alt="Experiência de realidade virtual com ambiente futurista">
-            </div>
-            <div class="about_content" data-animate="right" data-animate-delay="2">
-                <div class="about_header">
-                    <h2 class="about_title">O futuro do conhecimento já está aqui, e você pode fazer parte dele.</h2>
-                    <p class="about_subtile">Com a realidade virtual, criar se torna uma experiência imersiva.</p>
-                </div>
-                <ul class="accordion_content">
-                    <li class="about_accordion-item">
-                        <button class="about_accordion_trigger" aria-expanded="false" aria-controls="accordion-1">
-                            Tour Virtual de Arquitetura / Imóveis
-                            <span class="about_accordion-icon"></span>
-                        </button>
-                        <div class="about_accordion-wrapper">
-                            <div class="about_accordion-answer" id="accordion-1">
-                                <p>Explore imóveis e espaços arquitetônicos em realidade virtual, permitindo visitas
-                                    imersivas sem sair de casa.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="about_accordion-item">
-                        <button class="about_accordion_trigger" aria-expanded="false" aria-controls="accordion-2">
-                            Galeria Imersiva & Interativa
-                            <span class="about_accordion-icon"></span>
-                        </button>
-                        <div class="about_accordion-wrapper">
-                            <div class="about_accordion-answer" id="accordion-2">
-                                <p>Ambientes virtuais que combinam arte, interatividade e tecnologia para criar
-                                    experiências culturais únicas.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="about_accordion-item">
-                        <button class="about_accordion_trigger" aria-expanded="false" aria-controls="accordion-3">
-                            Curso ou Treinamento Educacional
-                            <span class="about_accordion-icon"></span>
-                        </button>
-                        <div class="about_accordion-wrapper">
-                            <div class="about_accordion-answer" id="accordion-3">
-                                <p>Soluções de aprendizado imersivo para treinamentos corporativos, cursos técnicos e
-                                    educação a distância.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="about_accordion-item">
-                        <button class="about_accordion_trigger" aria-expanded="false" aria-controls="accordion-4">
-                            Experiência de Arte Digital / Pintura 3D
-                            <span class="about_accordion-icon"></span>
-                        </button>
-                        <div class="about_accordion-wrapper">
-                            <div class="about_accordion-answer" id="accordion-4">
-                                <p>Criação e exposição de obras de arte digital em ambientes tridimensionais e
-                                    imersivos.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="about_accordion-item">
-                        <button class="about_accordion_trigger" aria-expanded="false" aria-controls="accordion-5">
-                            Apresentação de Produto / Lançamento de Marca
-                            <span class="about_accordion-icon"></span>
-                        </button>
-                        <div class="about_accordion-wrapper">
-                            <div class="about_accordion-answer" id="accordion-5">
-                                <p>Apresentações de produtos e lançamentos de marca em ambientes virtuais personalizados
-                                    e impactantes.</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+                <ul class="accordion_content">
+                    <li class="about_accordion-item">
+                        <button class="about_accordion_trigger" type="button" aria-expanded="false"
+                            aria-controls="accordion-1">
+                            Tour Virtual de Arquitetura / Imóveis
+                            <span class="about_accordion-icon"></span>
+                        </button>
 
+                        <div class="about_accordion-wrapper">
+                            <div class="about_accordion-answer" id="accordion-1">
+                                <p>
+                                    Explore imóveis e espaços arquitetônicos em realidade virtual,
+                                    permitindo visitas imersivas sem sair de casa.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
 
-        <!-- Projetos -->
-        <section class="projects" id="projects">
-            <div class="projects_header" data-animate="up">
-                <h2 class="projects_title">Projetos e Imersões</h2>
-                <p class="projects_subtitle">Explore como a realidade virtual transforma a forma de aprender, criar e
-                    viver experiências digitais.</p>
-            </div>
-            <div class="projects_filters" data-animate="fade" data-animate-delay="1">
-                <button class="projects_filter-button projects_filter-active" data-filter="todos">Todos</button>
-                <button class="projects_filter-button" data-filter="design">Design</button>
-                <button class="projects_filter-button" data-filter="educacao">Educação</button>
-                <button class="projects_filter-button" data-filter="games">Games</button>
-                <button class="projects_filter-button" data-filter="arquitetura">Arquitetura</button>
-                <button class="projects_filter-button" data-filter="arte">Arte</button>
-                <button class="projects_filter-button" data-filter="saude">Saúde</button>
-            </div>
-            <div class="projects_gallery">
-                <ul class="projects_list">
-                    <li class="projects_card-item" data-category="design" data-animate="up" data-animate-delay="1">
-                        <div class="projects_card-thumb">
-                            <img src="assets/img/cards/projeto-sneaker.jpg" alt="Sneaker AR Experience">
-                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
-                                    class="fa-solid fa-glasses"></i></span>
-                        </div>
-                        <div class="projects_card-info">
-                            <h3 class="projects_card-title">Sneaker AR Experience</h3>
-                            <p class="projects_card-author">by Minor Beats</p>
-                            <div class="projects_card-stats">
-                                <span><i class="fa-solid fa-eye"></i> 13K</span>
-                                <span><i class="fa-solid fa-heart"></i> 329k</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projects_card-item" data-category="saude" data-animate="scale" data-animate-delay="2">
-                        <div class="projects_card-thumb">
-                            <img src="assets/img/cards/projeto-zen-forest.jpg" alt="Zen Forest Imersão">
-                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
-                                    class="fa-solid fa-glasses"></i></span>
-                        </div>
-                        <div class="projects_card-info">
-                            <h3 class="projects_card-title">Zen Forest Imersão</h3>
-                            <p class="projects_card-author">by Zenora Clinic</p>
-                            <div class="projects_card-stats">
-                                <span><i class="fa-solid fa-eye"></i> 21K</span>
-                                <span><i class="fa-solid fa-heart"></i> 320k</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projects_card-item" data-category="educacao" data-animate="up" data-animate-delay="3">
-                        <div class="projects_card-thumb">
-                            <img src="assets/img/cards/projeto-science-lab.jpg" alt="Science Lab VR">
-                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
-                                    class="fa-solid fa-glasses"></i></span>
-                        </div>
-                        <div class="projects_card-info">
-                            <h3 class="projects_card-title">Science Lab VR</h3>
-                            <p class="projects_card-author">by Mindscape Academy</p>
-                            <div class="projects_card-stats">
-                                <span><i class="fa-solid fa-eye"></i> 35K</span>
-                                <span><i class="fa-solid fa-heart"></i> 256k</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projects_card-item" data-category="educacao" data-animate="scale" data-animate-delay="4">
-                        <div class="projects_card-thumb">
-                            <img src="assets/img/cards/projeto-tech-training.jpg" alt="Tech Training 360°">
-                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
-                                    class="fa-solid fa-glasses"></i></span>
-                        </div>
-                        <div class="projects_card-info">
-                            <h3 class="projects_card-title">Tech Training 360°</h3>
-                            <p class="projects_card-author">by Neurova Tech</p>
-                            <div class="projects_card-stats">
-                                <span><i class="fa-solid fa-eye"></i> 22K</span>
-                                <span><i class="fa-solid fa-heart"></i> 178k</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projects_card-item" data-category="arquitetura" data-animate="up" data-animate-delay="1">
-                        <div class="projects_card-thumb">
-                            <img src="assets/img/cards/projeto-interior-vision.jpg" alt="Interior Vision AR">
-                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
-                                    class="fa-solid fa-glasses"></i></span>
-                        </div>
-                        <div class="projects_card-info">
-                            <h3 class="projects_card-title">Interior Vision AR</h3>
-                            <p class="projects_card-author">by Elevare Arquitetura</p>
-                            <div class="projects_card-stats">
-                                <span><i class="fa-solid fa-eye"></i> 33K</span>
-                                <span><i class="fa-solid fa-heart"></i> 389k</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projects_card-item" data-category="games" data-animate="scale" data-animate-delay="2">
-                        <div class="projects_card-thumb">
-                            <img src="assets/img/cards/projeto-nexstrike.jpg" alt="NexStrike AR">
-                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
-                                    class="fa-solid fa-glasses"></i></span>
-                        </div>
-                        <div class="projects_card-info">
-                            <h3 class="projects_card-title">NexStrike AR</h3>
-                            <p class="projects_card-author">by NexCore Games</p>
-                            <div class="projects_card-stats">
-                                <span><i class="fa-solid fa-eye"></i> 65K</span>
-                                <span><i class="fa-solid fa-heart"></i> 479k</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projects_card-item" data-category="arte" data-animate="up" data-animate-delay="3">
-                        <div class="projects_card-thumb">
-                            <img src="assets/img/cards/projeto-galeria-3d.jpg" alt="Galeria Imersiva 3D">
-                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
-                                    class="fa-solid fa-glasses"></i></span>
-                        </div>
-                        <div class="projects_card-info">
-                            <h3 class="projects_card-title">Galeria Imersiva 3D</h3>
-                            <p class="projects_card-author">by Lumis Creative</p>
-                            <div class="projects_card-stats">
-                                <span><i class="fa-solid fa-eye"></i> 26K</span>
-                                <span><i class="fa-solid fa-heart"></i> 263k</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projects_card-item" data-category="arquitetura" data-animate="scale"
-                        data-animate-delay="4">
-                        <div class="projects_card-thumb">
-                            <img src="assets/img/cards/projeto-arquitetura-urbana.jpg" alt="Arquitetura Urbana VR">
-                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
-                                    class="fa-solid fa-glasses"></i></span>
-                        </div>
-                        <div class="projects_card-info">
-                            <h3 class="projects_card-title">Arquitetura Urbana VR</h3>
-                            <p class="projects_card-author">by Vortex Spaces</p>
-                            <div class="projects_card-stats">
-                                <span><i class="fa-solid fa-eye"></i> 15K</span>
-                                <span><i class="fa-solid fa-heart"></i> 155k</span>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+                    <li class="about_accordion-item">
+                        <button class="about_accordion_trigger" type="button" aria-expanded="false"
+                            aria-controls="accordion-2">
+                            Galeria Imersiva &amp; Interativa
+                            <span class="about_accordion-icon"></span>
+                        </button>
 
+                        <div class="about_accordion-wrapper">
+                            <div class="about_accordion-answer" id="accordion-2">
+                                <p>
+                                    Ambientes virtuais que combinam arte, interatividade e tecnologia
+                                    para criar experiências culturais únicas.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
 
-        <!-- CTA -->
-        <section class="cta">
-            <div class="cta_content" data-animate="left">
-                <div class="cta_header">
-                    <h2 class="cta_title">Pronto para sua experiência Imersiva?</h2>
-                    <p class="cta_subtitle">Junte-se a milhares de pessoas que já transformaram sua experiência.
-                        Resultados reais, tecnologia de ponta e suporte dedicado, tudo em um só lugar.</p>
-                </div>
-                <ul class="cta_stats">
-                    <li class="cta_stat" data-animate="up" data-animate-delay="1">
-                        <strong class="cta_stat-value">+500</strong>
-                        <span class="cta_stat-label">Projetos entregues</span>
-                    </li>
-                    <li class="cta_stat" data-animate="up" data-animate-delay="2">
-                        <strong class="cta_stat-value">+10K</strong>
-                        <span class="cta_stat-label">Usuários ativos</span>
-                    </li>
-                    <li class="cta_stat" data-animate="up" data-animate-delay="3">
-                        <strong class="cta_stat-value">95%</strong>
-                        <span class="cta_stat-label">Taxa de satisfação</span>
-                    </li>
-                    <li class="cta_stat" data-animate="up" data-animate-delay="4">
-                        <strong class="cta_stat-value">24/7</strong>
-                        <span class="cta_stat-label">Suporte disponível</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="cta_media" data-animate="scale" data-animate-delay="2">
-                <img src="assets/img/content/vision_content.png"
-                    alt="Pessoa utilizando óculos de realidade virtual em ambiente tecnológico">
-            </div>
-        </section>
+                    <li class="about_accordion-item">
+                        <button class="about_accordion_trigger" type="button" aria-expanded="false"
+                            aria-controls="accordion-3">
+                            Curso ou Treinamento Educacional
+                            <span class="about_accordion-icon"></span>
+                        </button>
 
+                        <div class="about_accordion-wrapper">
+                            <div class="about_accordion-answer" id="accordion-3">
+                                <p>
+                                    Soluções de aprendizado imersivo para treinamentos corporativos,
+                                    cursos técnicos e educação a distância.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
 
-        <!-- Contato -->
-        <section class="contact" id="contact">
-            <div class="contact_info" data-animate="left">
-                <div class="contact_header">
-                    <h2 class="contact_title">Contato</h2>
-                    <p class="contact_subtitle">Envie sua mensagem e entraremos em contato.</p>
-                </div>
-                <address class="contact_details">
-                    <ul class="contact_details-list">
-                        <li class="contact_details-item">
-                            <img src="assets/icons/email.svg" alt="">
-                            <a href="mailto:awvirtual@vr.com.br">awvirtual@vr.com.br</a>
-                        </li>
-                        <li class="contact_details-item">
-                            <img src="assets/icons/phone.svg" alt="">
-                            <a href="tel:+551199999-9999">+55 (11) 99999-9999</a>
-                        </li>
-                        <li class="contact_details-item">
-                            <img src="assets/icons/location.svg" alt="">
-                            <p>Av. Paulista, 900 - São Paulo</p>
-                        </li>
-                        <li class="contact_details-item">
-                            <img src="assets/icons/schedules.svg" alt="">
-                            <p>seg a sex das 8:00 às 18:00</p>
-                        </li>
-                    </ul>
-                </address>
-            </div>
-            <form class="contact_form" action="#" method="POST" data-animate="right" data-animate-delay="2">
-                <div class="contact_form-row">
-                    <div class="contact_form-group">
-                        <label for="nome">Nome completo</label>
-                        <input type="text" id="nome" name="nome" placeholder="Seu nome">
-                    </div>
-                    <div class="contact_form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="seu@email.com">
-                    </div>
-                </div>
-                <div class="contact_form-row">
-                    <div class="contact_form-group">
-                        <label for="telefone">Telefone</label>
-                        <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
-                    </div>
-                    <div class="contact_form-group">
-                        <label for="assunto">Assunto</label>
-                        <input type="text" id="assunto" name="assunto" placeholder="Assunto da mensagem">
-                    </div>
-                </div>
-                <div class="contact_form-group">
-                    <label for="descricao">Descrição</label>
-                    <textarea id="descricao" name="descricao" rows="5"
-                        placeholder="Descreva sua mensagem..."></textarea>
-                </div>
-                <div class="contact_form-privacy">
-                    <input type="checkbox" id="politica" name="politica">
-                    <label for="politica">Concordo com a política de privacidade e autorizo o contato para apresentação
-                        da proposta.</label>
-                </div>
-                <button type="submit" class="contact_form-submit">Enviar</button>
-            </form>
-        </section>
+                    <li class="about_accordion-item">
+                        <button class="about_accordion_trigger" type="button" aria-expanded="false"
+                            aria-controls="accordion-4">
+                            Experiência de Arte Digital / Pintura 3D
+                            <span class="about_accordion-icon"></span>
+                        </button>
 
+                        <div class="about_accordion-wrapper">
+                            <div class="about_accordion-answer" id="accordion-4">
+                                <p>
+                                    Criação e exposição de obras de arte digital em ambientes tridimensionais e
+                                    imersivos.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
 
-        <!-- FAQ -->
-        <section class="faq" id="faq">
-            <div class="faq_header" data-animate="up">
-                <h2 class="faq_title">Perguntas Frequentes</h2>
-                <p class="faq_subtitle">Aqui você encontra respostas sobre as experiências em realidade virtual,
-                    atividades de estudo, criação de projetos e acesso de evento.</p>
-            </div>
-            <div class="faq_grid">
-                <div class="faq-col">
-                    <details class="faq_item" data-animate="left" data-animate-delay="1">
-                        <summary class="faq_question">Preciso ter experiência com realidade virtual para participar?
-                            <span class="faq_icon"></span>
-                        </summary>
-                        <div class="faq_answer">
-                            <p>Não é necessário nenhum conhecimento prévio. Nossos instrutores guiarão você em cada
-                                experiência.</p>
-                        </div>
-                    </details>
-                    <details class="faq_item" data-animate="left" data-animate-delay="2">
-                        <summary class="faq_question">O equipamento de realidade virtual é fornecido no local? <span
-                                class="faq_icon"></span></summary>
-                        <div class="faq_answer">
-                            <p>Sim, todos os equipamentos necessários estarão disponíveis no evento. Você não precisa
-                                levar nada.</p>
-                        </div>
-                    </details>
-                    <details class="faq_item" data-animate="left" data-animate-delay="3">
-                        <summary class="faq_question">Quanto tempo dura cada sessão de realidade virtual? <span
-                                class="faq_icon"></span></summary>
-                        <div class="faq_answer">
-                            <p>Cada sessão tem duração média de 10 a 15 minutos, podendo variar conforme a experiência
-                                escolhida e a disponibilidade no local.</p>
-                        </div>
-                    </details>
-                </div>
-                <div class="faq-col">
-                    <details class="faq_item" data-animate="right" data-animate-delay="1">
-                        <summary class="faq_question">Vale a pena participar mesmo se eu nunca testei um óculos VR?
-                            <span class="faq_icon"></span>
-                        </summary>
-                        <div class="faq_answer">
-                            <p>Com certeza! O evento foi pensado justamente para quem está tendo o primeiro contato com
-                                a tecnologia.</p>
-                        </div>
-                    </details>
-                    <details class="faq_item" data-animate="right" data-animate-delay="2">
-                        <summary class="faq_question">Quais atividades estarão disponíveis no evento? <span
-                                class="faq_icon"></span></summary>
-                        <div class="faq_answer">
-                            <p>Você poderá explorar experiências imersivas, testar ambientes virtuais voltados para
-                                estudo, criação de projetos e também conteúdos do universo gamer.</p>
-                        </div>
-                    </details>
-                    <details class="faq_item" data-animate="right" data-animate-delay="3">
-                        <summary class="faq_question">Existe limite de idade para usar os óculos VR? <span
-                                class="faq_icon"></span></summary>
-                        <div class="faq_answer">
-                            <p>Recomendamos o uso a partir dos 15 anos. Crianças menores de 15 anos devem estar
-                                acompanhadas de um responsável.</p>
-                        </div>
-                    </details>
-                </div>
-            </div>
-        </section>
+                    <li class="about_accordion-item">
+                        <button class="about_accordion_trigger" type="button" aria-expanded="false"
+                            aria-controls="accordion-5">
+                            Apresentação de Produto / Lançamento de Marca
+                            <span class="about_accordion-icon"></span>
+                        </button>
 
+                        <div class="about_accordion-wrapper">
+                            <div class="about_accordion-answer" id="accordion-5">
+                                <p>
+                                    Apresentações de produtos e lançamentos de marca em ambientes virtuais
+                                    personalizados e impactantes.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-        <!-- Newsletter -->
-        <section class="newsletter" id="newsletter">
-            <div class="newsletter_content" data-animate="scale">
-                <div class="newsletter_logo">
-                    <img src="assets/logos/AW.svg" alt="logo-empresa" class="newsletter_logo">
-                </div>
-                <p class="newsletter_text">Inscreva-se para receber novidades sobre experiências imersivas, eventos
-                    exclusivos e acesso antecipado a novas turmas.</p>
-                <form class="newsletter_form" action="#" method="POST">
-                    <div class="newsletter_field">
-                        <input type="email" name="email" placeholder="envie seu email" class="newsletter_input"
-                            required>
-                        <button type="submit" class="newsletter_submit" aria-label="Enviar">
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </section>
+        <!-- Projetos -->
+        <section class="projects" id="projects">
+            <div class="projects_header" data-animate="up">
+                <h2 class="projects_title">Projetos e Imersões</h2>
 
+                <p class="projects_subtitle">
+                    Explore como a realidade virtual transforma a forma de aprender, criar e
+                    viver experiências digitais.
+                </p>
+            </div>
 
-    </main>
+            <div class="projects_filters" data-animate="fade" data-animate-delay="1">
+                <button class="projects_filter-button projects_filter-active" type="button" data-filter="todos">
+                    Todos
+                </button>
+                <button class="projects_filter-button" type="button" data-filter="design">Design</button>
+                <button class="projects_filter-button" type="button" data-filter="educacao">Educação</button>
+                <button class="projects_filter-button" type="button" data-filter="games">Games</button>
+                <button class="projects_filter-button" type="button" data-filter="arquitetura">Arquitetura</button>
+                <button class="projects_filter-button" type="button" data-filter="arte">Arte</button>
+                <button class="projects_filter-button" type="button" data-filter="saude">Saúde</button>
+            </div>
 
+            <div class="projects_gallery">
+                <ul class="projects_list">
+                    <li class="projects_card-item" data-category="design" data-animate="up" data-animate-delay="1">
+                        <div class="projects_card-thumb">
+                            <img src="ativos/img/cards/projeto-sneaker.jpg" alt="Sneaker AR Experience">
 
-    <!-- Rodapé -->
-    <footer class="footer">
-        <div class="footer_grid" data-animate="up">
-            <div class="footer_col">
-                <h3 class="footer_col-title">Experiências VR</h3>
-                <ul class="footer_col-links">
-                    <li><a href="#">Estudo Imersivo</a></li>
-                    <li><a href="#">Projetos e Arquitetura</a></li>
-                    <li><a href="#">Simulações Interativas</a></li>
-                    <li><a href="#">Ultra Gaming Experience</a></li>
-                </ul>
-            </div>
-            <div class="footer_col">
-                <h3 class="footer_col-title">Informações do Evento</h3>
-                <ul class="footer_col-links">
-                    <li><a href="#">Data e programação</a></li>
-                    <li><a href="#">Como participar</a></li>
-                    <li><a href="#">Requisitos para experiência VR</a></li>
-                    <li><a href="#">Perguntas Frequentes</a></li>
-                </ul>
-            </div>
-            <div class="footer_col">
-                <h3 class="footer_col-title">Atendimento</h3>
-                <ul class="footer_col-links footer_col-links--contact">
-                    <li><i class="fa-solid fa-phone"></i><a href="tel:+5511999999999">+55 (11) 99999-9999</a></li>
-                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:awvirtual@vr.com.br">awvirtual@vr.com.br</a>
-                    </li>
-                    <li><i class="fa-regular fa-clock"></i><span>Segunda a Sexta - 9h às 18h</span></li>
-                </ul>
-            </div>
-            <div class="footer_col">
-                <h3 class="footer_col-title">Tecnologias Utilizadas</h3>
-                <ul class="footer_col-links">
-                    <li><a href="#">Headsets de última geração</a></li>
-                    <li><a href="#">Ambientes virtuais 360°</a></li>
-                    <li><a href="#">Ferramentas de criação em VR</a></li>
-                    <li><a href="#">Plataformas imersivas</a></li>
-                </ul>
-            </div>
-            <div class="footer_col">
-                <h3 class="footer_col-title">Segurança e Transparência</h3>
-                <ul class="footer_col-links">
-                    <li><a href="#">Política de Privacidade</a></li>
-                    <li><a href="#">Termos de Uso</a></li>
-                    <li><a href="#">Política de Cookies</a></li>
-                </ul>
-            </div>
-            <div class="footer_col">
-                <h3 class="footer_col-title">Redes Sociais</h3>
-                <div class="footer_social">
-                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" aria-label="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
+                            <span class="projects_card-badge">
+                                <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-glasses"></i>
+                            </span>
+                        </div>
 
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Sneaker AR Experience</h3>
+                            <p class="projects_card-author">by Minor Beats</p>
 
-    <script src="project/js/script.js"></script>
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 13K</span>
+                                <span><i class="fa-solid fa-heart"></i> 329k</span>
+                            </div>
+                        </div>
+                    </li>
 
+                    <li class="projects_card-item" data-category="saude" data-animate="scale" data-animate-delay="2">
+                        <div class="projects_card-thumb">
+                            <img src="ativos/img/cards/projeto-zen-forest.jpg" alt="Zen Forest Imersão">
+
+                            <span class="projects_card-badge">
+                                <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-glasses"></i>
+                            </span>
+                        </div>
+
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Zen Forest Imersão</h3>
+                            <p class="projects_card-author">by Zenora Clinic</p>
+
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 21K</span>
+                                <span><i class="fa-solid fa-heart"></i> 320k</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="projects_card-item" data-category="educacao" data-animate="up" data-animate-delay="3">
+                        <div class="projects_card-thumb">
+                            <img src="ativos/img/cards/projeto-science-lab.jpg" alt="Science Lab VR">
+
+                            <span class="projects_card-badge">
+                                <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-glasses"></i>
+                            </span>
+                        </div>
+
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Science Lab VR</h3>
+                            <p class="projects_card-author">by Mindscape Academy</p>
+
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 35K</span>
+                                <span><i class="fa-solid fa-heart"></i> 256k</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="projects_card-item" data-category="educacao" data-animate="scale" data-animate-delay="4">
+                        <div class="projects_card-thumb">
+                            <img src="ativos/img/cards/projeto-tech-training.jpg" alt="Tech Training 360°">
+
+                            <span class="projects_card-badge">
+                                <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-glasses"></i>
+                            </span>
+                        </div>
+
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Tech Training 360°</h3>
+                            <p class="projects_card-author">by Neurova Tech</p>
+
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 22K</span>
+                                <span><i class="fa-solid fa-heart"></i> 178k</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="projects_card-item" data-category="arquitetura" data-animate="up"
+                        data-animate-delay="1">
+                        <div class="projects_card-thumb">
+                            <img src="ativos/img/cards/projeto-interior-vision.jpg" alt="Interior Vision AR">
+
+                            <span class="projects_card-badge">
+                                <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-glasses"></i>
+                            </span>
+                        </div>
+
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Interior Vision AR</h3>
+                            <p class="projects_card-author">by Elevare Arquitetura</p>
+
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 33K</span>
+                                <span><i class="fa-solid fa-heart"></i> 389k</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="projects_card-item" data-category="games" data-animate="scale" data-animate-delay="2">
+                        <div class="projects_card-thumb">
+                            <img src="ativos/img/cards/projeto-nexstrike.jpg" alt="NexStrike AR">
+
+                            <span class="projects_card-badge">
+                                <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-glasses"></i>
+                            </span>
+                        </div>
+
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">NexStrike AR</h3>
+                            <p class="projects_card-author">by NexCore Games</p>
+
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 65K</span>
+                                <span><i class="fa-solid fa-heart"></i> 479k</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="projects_card-item" data-category="arte" data-animate="up" data-animate-delay="3">
+                        <div class="projects_card-thumb">
+                            <img src="ativos/img/cards/projeto-galeria-3d.jpg" alt="Galeria Imersiva 3D">
+
+                            <span class="projects_card-badge">
+                                <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-glasses"></i>
+                            </span>
+                        </div>
+
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Galeria Imersiva 3D</h3>
+                            <p class="projects_card-author">by Lumis Creative</p>
+
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 26K</span>
+                                <span><i class="fa-solid fa-heart"></i> 263k</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="projects_card-item" data-category="arquitetura" data-animate="scale"
+                        data-animate-delay="4">
+                        <div class="projects_card-thumb">
+                            <img src="ativos/img/cards/projeto-arquitetura-urbana.jpg" alt="Arquitetura Urbana VR">
+
+                            <span class="projects_card-badge">
+                                <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-glasses"></i>
+                            </span>
+                        </div>
+
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Arquitetura Urbana VR</h3>
+                            <p class="projects_card-author">by Vortex Spaces</p>
+
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 15K</span>
+                                <span><i class="fa-solid fa-heart"></i> 155k</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <div class="cta_content" data-animate="left">
+                <div class="cta_header">
+                    <h2 class="cta_title">Pronto para sua experiência Imersiva?</h2>
+
+                    <p class="cta_subtitle">
+                        Junte-se a milhares de pessoas que já transformaram sua experiência.
+                        Resultados reais, tecnologia de ponta e suporte dedicado, tudo em um só lugar.
+                    </p>
+                </div>
+
+                <ul class="cta_stats">
+                    <li class="cta_stat" data-animate="up" data-animate-delay="1">
+                        <strong class="cta_stat-value">+500</strong>
+                        <span class="cta_stat-label">Projetos entregues</span>
+                    </li>
+
+                    <li class="cta_stat" data-animate="up" data-animate-delay="2">
+                        <strong class="cta_stat-value">+10K</strong>
+                        <span class="cta_stat-label">Usuários ativos</span>
+                    </li>
+
+                    <li class="cta_stat" data-animate="up" data-animate-delay="3">
+                        <strong class="cta_stat-value">95%</strong>
+                        <span class="cta_stat-label">Taxa de satisfação</span>
+                    </li>
+
+                    <li class="cta_stat" data-animate="up" data-animate-delay="4">
+                        <strong class="cta_stat-value">24/7</strong>
+                        <span class="cta_stat-label">Suporte disponível</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cta_media" data-animate="scale" data-animate-delay="2">
+                <img src="ativos/img/content/vision_content.png"
+                    alt="Pessoa utilizando óculos de realidade virtual em ambiente tecnológico">
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section class="contact" id="contact">
+            <div class="contact_info" data-animate="left">
+                <div class="contact_header">
+                    <h2 class="contact_title">Contato</h2>
+                    <p class="contact_subtitle">Envie sua mensagem e entraremos em contato.</p>
+                </div>
+
+                <address class="contact_details">
+                    <ul class="contact_details-list">
+                        <li class="contact_details-item">
+                            <img src="ativos/icons/email.svg" alt="">
+                            <a href="mailto:awvirtual@vr.com.br">awvirtual@vr.com.br</a>
+                        </li>
+
+                        <li class="contact_details-item">
+                            <img src="ativos/icons/phone.svg" alt="">
+                            <a href="tel:+5511999999999">+55 (11) 99999-9999</a>
+                        </li>
+
+                        <li class="contact_details-item">
+                            <img src="ativos/icons/location.svg" alt="">
+                            <p>Av. Paulista, 900 - São Paulo</p>
+                        </li>
+
+                        <li class="contact_details-item">
+                            <img src="ativos/icons/schedules.svg" alt="">
+                            <p>Seg a sex, das 8:00 às 18:00</p>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+
+            <form class="contact_form" action="#" method="POST" data-animate="right" data-animate-delay="2">
+                <div class="contact_form-row">
+                    <div class="contact_form-group">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome">
+                    </div>
+
+                    <div class="contact_form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com">
+                    </div>
+                </div>
+
+                <div class="contact_form-row">
+                    <div class="contact_form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+                    </div>
+
+                    <div class="contact_form-group">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" name="assunto" placeholder="Assunto da mensagem">
+                    </div>
+                </div>
+
+                <div class="contact_form-group">
+                    <label for="descricao">Descrição</label>
+                    <textarea id="descricao" name="descricao" rows="5"
+                        placeholder="Descreva sua mensagem..."></textarea>
+                </div>
+
+                <div class="contact_form-privacy">
+                    <input type="checkbox" id="politica" name="politica">
+                    <label for="politica">
+                        Concordo com a política de privacidade e autorizo o contato para apresentação da proposta.
+                    </label>
+                </div>
+
+                <button type="submit" class="contact_form-submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq" id="faq">
+            <div class="faq_header" data-animate="up">
+                <h2 class="faq_title">Perguntas Frequentes</h2>
+
+                <p class="faq_subtitle">
+                    Aqui você encontra respostas sobre as experiências em realidade virtual,
+                    atividades de estudo, criação de projetos e acesso de evento.
+                </p>
+            </div>
+
+            <div class="faq_grid">
+                <div class="faq-col">
+                    <details class="faq_item" data-animate="left" data-animate-delay="1">
+                        <summary class="faq_question">
+                            Preciso ter experiência com realidade virtual para participar?
+                            <span class="faq_icon"></span>
+                        </summary>
+
+                        <div class="faq_answer">
+                            <p>
+                                Não é necessário nenhum conhecimento prévio. Nossos instrutores
+                                guiarão você em cada experiência.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq_item" data-animate="left" data-animate-delay="2">
+                        <summary class="faq_question">
+                            O equipamento de realidade virtual é fornecido no local?
+                            <span class="faq_icon"></span>
+                        </summary>
+
+                        <div class="faq_answer">
+                            <p>
+                                Sim, todos os equipamentos necessários estarão disponíveis no evento.
+                                Você não precisa levar nada.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq_item" data-animate="left" data-animate-delay="3">
+                        <summary class="faq_question">
+                            Quanto tempo dura cada sessão de realidade virtual?
+                            <span class="faq_icon"></span>
+                        </summary>
+
+                        <div class="faq_answer">
+                            <p>
+                                Cada sessão tem duração média de 10 a 15 minutos, podendo variar conforme
+                                a experiência escolhida e a disponibilidade no local.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="faq-col">
+                    <details class="faq_item" data-animate="right" data-animate-delay="1">
+                        <summary class="faq_question">
+                            Vale a pena participar mesmo se eu nunca testei um óculos VR?
+                            <span class="faq_icon"></span>
+                        </summary>
+
+                        <div class="faq_answer">
+                            <p>
+                                Com certeza! O evento foi pensado justamente para quem está tendo
+                                o primeiro contato com a tecnologia.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq_item" data-animate="right" data-animate-delay="2">
+                        <summary class="faq_question">
+                            Quais atividades estarão disponíveis no evento?
+                            <span class="faq_icon"></span>
+                        </summary>
+
+                        <div class="faq_answer">
+                            <p>
+                                Você poderá explorar experiências imersivas, testar ambientes virtuais
+                                voltados para estudo, criação de projetos e conteúdos do universo gamer.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq_item" data-animate="right" data-animate-delay="3">
+                        <summary class="faq_question">
+                            Existe limite de idade para usar os óculos VR?
+                            <span class="faq_icon"></span>
+                        </summary>
+
+                        <div class="faq_answer">
+                            <p>
+                                Recomendamos o uso a partir dos 15 anos. Crianças menores de 15 anos
+                                devem estar acompanhadas de um responsável.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter" id="newsletter">
+            <div class="newsletter_content" data-animate="scale">
+                <div class="newsletter_logo">
+                    <img src="ativos/logos/AW.svg" alt="Logo da empresa AW">
+                </div>
+
+                <p class="newsletter_text">
+                    Inscreva-se para receber novidades sobre experiências imersivas, eventos
+                    exclusivos e acesso antecipado a novas turmas.
+                </p>
+
+                <form class="newsletter_form" action="#" method="POST">
+                    <div class="newsletter_field">
+                        <input type="email" name="email" placeholder="Envie seu e-mail" class="newsletter_input"
+                            required>
+
+                        <button type="submit" class="newsletter_submit" aria-label="Enviar">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer_grid" data-animate="up">
+            <div class="footer_col">
+                <h3 class="footer_col-title">Experiências VR</h3>
+
+                <ul class="footer_col-links">
+                    <li><a href="#">Estudo Imersivo</a></li>
+                    <li><a href="#">Projetos e Arquitetura</a></li>
+                    <li><a href="#">Simulações Interativas</a></li>
+                    <li><a href="#">Ultra Gaming Experience</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h3 class="footer_col-title">Informações do Evento</h3>
+
+                <ul class="footer_col-links">
+                    <li><a href="#">Data e programação</a></li>
+                    <li><a href="#">Como participar</a></li>
+                    <li><a href="#">Requisitos para experiência VR</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h3 class="footer_col-title">Atendimento</h3>
+
+                <ul class="footer_col-links footer_col-links--contact">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+5511999999999">+55 (11) 99999-9999</a>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:awvirtual@vr.com.br">awvirtual@vr.com.br</a>
+                    </li>
+
+                    <li>
+                        <i class="fa-regular fa-clock"></i>
+                        <span>Segunda a Sexta - 9h às 18h</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h3 class="footer_col-title">Tecnologias Utilizadas</h3>
+
+                <ul class="footer_col-links">
+                    <li><a href="#">Headsets de última geração</a></li>
+                    <li><a href="#">Ambientes virtuais 360°</a></li>
+                    <li><a href="#">Ferramentas de criação em VR</a></li>
+                    <li><a href="#">Plataformas imersivas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h3 class="footer_col-title">Segurança e Transparência</h3>
+
+                <ul class="footer_col-links">
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h3 class="footer_col-title">Redes Sociais</h3>
+
+                <div class="footer_social">
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#" aria-label="Twitter/X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
-
 
 </html>
