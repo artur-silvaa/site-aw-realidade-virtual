@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <title>Aw - Projetos | Realidade Virtual</title>
+</head>
+
+<body>
+    <header class="site-header" data-animate="down">
+        <a href="index.html" class="site-header__brand" aria-label="Ir para a página inicial">
+            <img src="../assets/logos/AW-logo.svg" alt="AW Realidade Virtual">
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false"
+            aria-controls="site-navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Navegação principal">
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html" class="nav-link-item">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html" class="nav-link-item">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="projects.html" class="nav-link-item">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="events.html" class="nav-link-item">Eventos</a>
+                </li>
+
+                <li>
+                    <a href="contact.html" class="nav-link-item">Contato</a>
+                </li>
+
+                <li class="nav-login">
+                    <a href="login.html" class="nav-link-item">
+                        <i class="fa-solid fa-user" aria-hidden="true"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="projects-hero">
+            <div class="projects-hero_content">
+
+                <h1>Explore, conecte-se,<br> descubra e viva novas<br> experiências.</h1>
+                <p>Projetos imersivos que transformam ideias em experiências digitais memoráveis.</p>
+
+                <div class="projects-actions">
+                    <a href="#projects" class="projects-button">Explorar projetos</a>
+                    <a href="#pillars" class="projects-button projects-button--outline">Ver destaques</a>
+                </div>
+            </div>
+
+            <div class="projects-hero_visual">
+                <img src="../assets/img/content/hero_projects.png" alt="Experiência de realidade virtual">
+            </div>
+        </section>
+
+        <section class="pillars" id="pillars">
+            <div class="pillars_header" data-animate="up">
+                <h2 class="pillars_title">Experiências em destaque</h2>
+                <p class="pillars_subtitle">
+                    Cada entrega combina design, tecnologia e narrativa para criar resultados memoráveis.
+                </p>
+            </div>
+            <ul class="pillars_list">
+                <li class="pillars_card" data-animate="scale" data-animate-delay="1">
+                    <img src="../assets/img/content/experience_arquitectura.png" alt="Projeto de arquitetura imersiva">
+                    <h3 class="pillars_card-title">Arquitetura Imersiva</h3>
+                    <p class="pillars_card-text">Visualização completa de ambientes em 3D para clientes e equipes.</p>
+                </li>
+                <li class="pillars_card" data-animate="scale" data-animate-delay="2">
+                    <img src="../assets/img/content/experience_study.png" alt="Projeto educativo em VR">
+                    <h3 class="pillars_card-title">Educação VR</h3>
+                    <p class="pillars_card-text">Simulações e treinamentos para aprender com mais profundidade e foco.
+                    </p>
+                </li>
+                <li class="pillars_card" data-animate="scale" data-animate-delay="3">
+                    <img src="../assets/img/content/experience_game.png" alt="Projeto de entretenimento imersivo">
+                    <h3 class="pillars_card-title">Gaming & Entretenimento</h3>
+                    <p class="pillars_card-text">Ambientes interativos que elevam a experiência do usuário em tempo
+                        real.</p>
+                </li>
+
+                <li class="pillars_card" data-animate="scale" data-animate-delay="1">
+                    <img src="../assets/img/content/experience_arts.png" alt="Projeto de arquitetura imersiva">
+                    <h3 class="pillars_card-title">Arte e cultura</h3>
+                    <p class="pillars_card-text">Ambientes virtuais que combinam arte, interatividade e tecnologia para
+                        criar experiências culturais únicas.</p>
+                </li>
+                <li class="pillars_card" data-animate="scale" data-animate-delay="2">
+                    <img src="../assets/img/content/experience_design.png" alt="Projeto educativo em VR">
+                    <h3 class="pillars_card-title">Design e tecnologia</h3>
+                    <p class="pillars_card-text">Crie designs e conteúdos de forma imersiva, por meio da realidade
+                        virtual e da tecnologia.
+                    </p>
+                </li>
+                <li class="pillars_card" data-animate="scale" data-animate-delay="3">
+                    <img src="../assets/img/content/experience_product.png" alt="Projeto de entretenimento imersivo">
+                    <h3 class="pillars_card-title">Experiências de Marca</h3>
+                    <p class="pillars_card-text">Apresentações de produtos e lançamentos de marca em ambientes virtuais.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Projetos -->
+        <section class="projects" id="projects">
+            <div class="projects_header" data-animate="up">
+                <h2 class="projects_title">Projetos e Imersões</h2>
+                <p class="projects_subtitle">Explore como a realidade virtual transforma a forma de aprender, criar e
+                    viver experiências digitais.</p>
+            </div>
+            <div class="projects_filters" data-animate="fade" data-animate-delay="1">
+                <button class="projects_filter-button projects_filter-active" data-filter="todos">Todos</button>
+                <button class="projects_filter-button" data-filter="design">Design</button>
+                <button class="projects_filter-button" data-filter="educacao">Educação</button>
+                <button class="projects_filter-button" data-filter="games">Games</button>
+                <button class="projects_filter-button" data-filter="arquitetura">Arquitetura</button>
+                <button class="projects_filter-button" data-filter="arte">Arte</button>
+                <button class="projects_filter-button" data-filter="saude">Saúde</button>
+            </div>
+            <div class="projects_gallery">
+                <ul class="projects_list">
+                    <li class="projects_card-item" data-category="design" data-animate="up" data-animate-delay="1">
+                        <div class="projects_card-thumb">
+                            <img src="../assets/img/cards/projeto-sneaker.jpg" alt="Sneaker AR Experience">
+                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
+                                    class="fa-solid fa-glasses"></i></span>
+                        </div>
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Sneaker AR Experience</h3>
+                            <p class="projects_card-author">by Minor Beats</p>
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 13K</span>
+                                <span><i class="fa-solid fa-heart"></i> 329k</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects_card-item" data-category="saude" data-animate="scale" data-animate-delay="2">
+                        <div class="projects_card-thumb">
+                            <img src="../assets/img/cards/projeto-zen-forest.jpg" alt="Zen Forest Imersão">
+                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
+                                    class="fa-solid fa-glasses"></i></span>
+                        </div>
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Zen Forest Imersão</h3>
+                            <p class="projects_card-author">by Zenora Clinic</p>
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 21K</span>
+                                <span><i class="fa-solid fa-heart"></i> 320k</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects_card-item" data-category="educacao" data-animate="up" data-animate-delay="3">
+                        <div class="projects_card-thumb">
+                            <img src="../assets/img/cards/projeto-science-lab.jpg" alt="Science Lab VR">
+                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
+                                    class="fa-solid fa-glasses"></i></span>
+                        </div>
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Science Lab VR</h3>
+                            <p class="projects_card-author">by Mindscape Academy</p>
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 35K</span>
+                                <span><i class="fa-solid fa-heart"></i> 256k</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects_card-item" data-category="educacao" data-animate="scale" data-animate-delay="4">
+                        <div class="projects_card-thumb">
+                            <img src="../assets/img/cards/projeto-tech-training.jpg" alt="Tech Training 360°">
+                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
+                                    class="fa-solid fa-glasses"></i></span>
+                        </div>
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Tech Training 360°</h3>
+                            <p class="projects_card-author">by Neurova Tech</p>
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 22K</span>
+                                <span><i class="fa-solid fa-heart"></i> 178k</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects_card-item" data-category="arquitetura" data-animate="up" data-animate-delay="1">
+                        <div class="projects_card-thumb">
+                            <img src="../assets/img/cards/projeto-interior-vision.jpg" alt="Interior Vision AR">
+                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
+                                    class="fa-solid fa-glasses"></i></span>
+                        </div>
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Interior Vision AR</h3>
+                            <p class="projects_card-author">by Elevare Arquitetura</p>
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 33K</span>
+                                <span><i class="fa-solid fa-heart"></i> 389k</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects_card-item" data-category="games" data-animate="scale" data-animate-delay="2">
+                        <div class="projects_card-thumb">
+                            <img src="../assets/img/cards/projeto-nexstrike.jpg" alt="NexStrike AR">
+                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
+                                    class="fa-solid fa-glasses"></i></span>
+                        </div>
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">NexStrike AR</h3>
+                            <p class="projects_card-author">by NexCore Games</p>
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 65K</span>
+                                <span><i class="fa-solid fa-heart"></i> 479k</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects_card-item" data-category="arte" data-animate="up" data-animate-delay="3">
+                        <div class="projects_card-thumb">
+                            <img src="../assets/img/cards/projeto-galeria-3d.jpg" alt="Galeria Imersiva 3D">
+                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
+                                    class="fa-solid fa-glasses"></i></span>
+                        </div>
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Galeria Imersiva 3D</h3>
+                            <p class="projects_card-author">by Lumis Creative</p>
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 26K</span>
+                                <span><i class="fa-solid fa-heart"></i> 263k</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects_card-item" data-category="arquitetura" data-animate="scale"
+                        data-animate-delay="4">
+                        <div class="projects_card-thumb">
+                            <img src="../assets/img/cards/projeto-arquitetura-urbana.jpg" alt="Arquitetura Urbana VR">
+                            <span class="projects_card-badge"><i class="fa-solid fa-globe"></i> <i
+                                    class="fa-solid fa-glasses"></i></span>
+                        </div>
+                        <div class="projects_card-info">
+                            <h3 class="projects_card-title">Arquitetura Urbana VR</h3>
+                            <p class="projects_card-author">by Vortex Spaces</p>
+                            <div class="projects_card-stats">
+                                <span><i class="fa-solid fa-eye"></i> 15K</span>
+                                <span><i class="fa-solid fa-heart"></i> 155k</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="cta">
+            <div class="cta_content" data-animate="left">
+                <div class="cta_header">
+                    <h2 class="cta_title">Quer transformar seu próximo projeto em uma experiência imersiva?</h2>
+                    <p class="cta_subtitle">Conte com uma equipe especializada para criar soluções que conversem com sua
+                        marca e seu público.</p>
+                </div>
+                <ul class="cta_stats">
+                    <li class="cta_stat" data-animate="up" data-animate-delay="1">
+                        <strong class="cta_stat-value">+500</strong>
+                        <span class="cta_stat-label">Projetos entregues</span>
+                    </li>
+                    <li class="cta_stat" data-animate="up" data-animate-delay="2">
+                        <strong class="cta_stat-value">+10K</strong>
+                        <span class="cta_stat-label">Usuários ativos</span>
+                    </li>
+                    <li class="cta_stat" data-animate="up" data-animate-delay="3">
+                        <strong class="cta_stat-value">95%</strong>
+                        <span class="cta_stat-label">Taxa de satisfação</span>
+                    </li>
+                    <li class="cta_stat" data-animate="up" data-animate-delay="4">
+                        <strong class="cta_stat-value">24/7</strong>
+                        <span class="cta_stat-label">Suporte disponível</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="cta_media" data-animate="scale" data-animate-delay="2">
+                <img src="../assets/img/content/project meeting.png" alt="Pessoa em ambiente de realidade virtual">
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter" id="newsletter">
+            <div class="newsletter_content" data-animate="scale">
+                <div class="newsletter_logo">
+                    <img src="../assets/logos/AW.svg" alt="logo-empresa" class="newsletter_logo">
+                </div>
+                <p class="newsletter_text">Inscreva-se para receber novidades sobre experiências imersivas, eventos
+                    exclusivos e acesso antecipado a novas turmas.</p>
+                <form class="newsletter_form" action="#" method="POST">
+                    <div class="newsletter_field">
+                        <input type="email" name="email" placeholder="envie seu email" class="newsletter_input"
+                            required>
+                        <button type="submit" class="newsletter_submit" aria-label="Enviar">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer_grid" data-animate="up">
+            <div class="footer_col">
+                <h3 class="footer_col-title">Experiências VR</h3>
+                <ul class="footer_col-links">
+                    <li><a href="#">Estudo Imersivo</a></li>
+                    <li><a href="#">Projetos e Arquitetura</a></li>
+                    <li><a href="#">Simulações Interativas</a></li>
+                    <li><a href="#">Ultra Gaming Experience</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3 class="footer_col-title">Informações do Evento</h3>
+                <ul class="footer_col-links">
+                    <li><a href="#">Data e programação</a></li>
+                    <li><a href="#">Como participar</a></li>
+                    <li><a href="#">Requisitos para experiência VR</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3 class="footer_col-title">Atendimento</h3>
+                <ul class="footer_col-links footer_col-links--contact">
+                    <li><i class="fa-solid fa-phone"></i><a href="tel:+5511999999999">+55 (11) 99999-9999</a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:awvirtual@vr.com.br">awvirtual@vr.com.br</a>
+                    </li>
+                    <li><i class="fa-regular fa-clock"></i><span>Segunda a Sexta - 9h às 18h</span></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3 class="footer_col-title">Tecnologias Utilizadas</h3>
+                <ul class="footer_col-links">
+                    <li><a href="#">Headsets de última geração</a></li>
+                    <li><a href="#">Ambientes virtuais 360°</a></li>
+                    <li><a href="#">Ferramentas de criação em VR</a></li>
+                    <li><a href="#">Plataformas imersivas</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3 class="footer_col-title">Segurança e Transparência</h3>
+                <ul class="footer_col-links">
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3 class="footer_col-title">Redes Sociais</h3>
+                <div class="footer_social">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

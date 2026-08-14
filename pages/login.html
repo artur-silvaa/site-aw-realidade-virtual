@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Aw - Login | Realidade Virtual</title>
+</head>
+
+<header class="site-header" data-animate="down">
+    <a href="index.html" class="site-header__brand" aria-label="Ir para a página inicial">
+        <img src="../assets/logos/AW-logo.svg" alt="AW Realidade Virtual">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false"
+        aria-controls="site-navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="site-nav" id="site-navigation" aria-label="Navegação principal">
+        <ul class="nav-links">
+            <li>
+                <a href="index.html" class="nav-link-item">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html" class="nav-link-item">Sobre</a>
+            </li>
+
+            <li>
+                <a href="projects.html" class="nav-link-item">Projetos</a>
+            </li>
+
+            <li>
+                <a href="events.html" class="nav-link-item">Eventos</a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="nav-link-item">Contato</a>
+            </li>
+
+            <li class="nav-login">
+                <a href="login.html" class="nav-link-item">
+                    <i class="fa-solid fa-user" aria-hidden="true"></i>
+                    <span>Login</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- Fundo com efeito de luz -->
+<div class="login-bg" aria-hidden="true">
+    <div class="login-bg_glow login-bg_glow--top"></div>
+    <div class="login-bg_glow login-bg_glow--bottom"></div>
+</div>
+
+<main class="login-shell">
+    <!-- Card principal -->
+    <div class="login-card">
+
+        <!-- ESQUERDA — Formulário -->
+        <div class="login-card_form">
+
+            <div class="login-card_form-inner">
+
+                <!-- Header -->
+                <div class="login-header">
+                    <h1 class="login-title">Bem-vindo de volta!</h1>
+                    <p class="login-subtitle">Que bom te ver novamente por aqui.</p>
+                </div>
+
+                <!-- Toggle Sign In / Sign Up -->
+                <div class="login-tabs">
+                    <button class="login-tabs_btn login-tabs_btn--active" data-tab="signin">Entrar</button>
+                    <button class="login-tabs_btn" data-tab="signup">Cadastrar</button>
+                </div>
+
+                <!-- Formulário -->
+                <form class="login-form" action="#" method="POST" novalidate>
+
+                    <div class="login-form_group">
+                        <div class="login-form_input-wrapper">
+                            <input type="email" id="email" name="email" placeholder="Digite seu email"
+                                autocomplete="email">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                    </div>
+
+                    <div class="login-form_group">
+                        <div class="login-form_input-wrapper">
+                            <input type="password" id="senha" name="senha" placeholder="Digite sua senha"
+                                autocomplete="current-password">
+                            <button type="button" class="login-form_toggle-pw" aria-label="Mostrar senha">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="login-form_options">
+                        <label class="login-form_remember">
+                            <input type="checkbox" name="lembrar">
+                            <span class="login-form_remember-custom"></span>
+                            <span>Lembrar de mim</span>
+                        </label>
+                        <a href="#" class="login-form_forgot">Esqueci a senha?</a>
+                    </div>
+
+                    <button type="submit" class="login-form_submit">Login</button>
+
+                </form>
+
+                <!-- Divisor -->
+                <div class="login-divider"><span>ou</span></div>
+
+                <!-- Sociais -->
+                <div class="login-socials">
+                    <a href="#" class="login-socials_btn login-socials_btn--dark" aria-label="Entrar com Apple">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>Entrar com Apple</span>
+                    </a>
+                    <a href="#" class="login-socials_btn login-socials_btn--light" aria-label="Entrar com Google">
+                        <i class="fa-brands fa-google"></i>
+                        <span>Entrar com Google</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- DIREITA — Painel visual -->
+        <div class="login-card_panel">
+
+            <div class="login-card_panel-bg">
+                <img src="../assets/img/content/events_date.png" alt="" aria-hidden="true">
+            </div>
+
+            <!-- Overlay gradiente -->
+            <div class="login-card_panel-overlay" aria-hidden="true"></div>
+
+            <!-- Conteúdo -->
+            <div class="login-card_panel-content">
+
+                <div class="login-card_panel-brand">
+                    <img src="../assets/logos/AW-logo.svg" alt="AW">
+                </div>
+
+                <div class="login-card_panel-text">
+                    <h2 class="login-card_panel-title">O próximo nível da <br> realidade não é aqui.</h2>
+                    <p class="login-card_panel-subtitle">
+                        Explore uma imersão completa onde conecta estudo,
+                        criação de projetos e o universo gamer.
+                    </p>
+                    <p class="login-card_panel-proof">
+                        Mais de <strong>+10K pessoas</strong> já fazem parte desta jornada.
+                    </p>
+                </div>
+
+                <div class="login-card_panel-card">
+                    <p class="login-card_panel-card-text">
+                        Sinta o futuro — explore, crie e viva experiências que
+                        transformam sua visão do mundo digital.
+                    </p>
+                    <div class="login-card_panel-avatars">
+                        <img src="../assets/img/testimonials/testimonials_aiden.png" alt="Usuário">
+                        <img src="../assets/img/testimonials/testimonials_sophia.png" alt="Usuário">
+                        <img src="../assets/img/testimonials/testimonials_thomas.png" alt="Usuário">
+                        <span class="login-card_panel-avatars-more">+10K</span>
+                    </div>
+                </div>
+
+                <!-- Footer do painel -->
+                <p class="login-card_panel-footer">
+                    © 2026 AW Virtual. Todos os direitos reservados.
+                    Acesso não autorizado é proibido. <a href="#">Termos de Uso</a> e <a href="#">Privacidade</a>.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+<script src="../js/script.js"></script>
+
+
+</body>
+
+
+</html>

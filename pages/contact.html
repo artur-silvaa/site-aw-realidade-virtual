@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Aw - Contato | Realidade Virtual</title>
+</head>
+
+<body>
+    <header class="site-header" data-animate="down">
+        <a href="index.html" class="site-header__brand" aria-label="Ir para a página inicial">
+            <img src="../assets/logos/AW-logo.svg" alt="AW Realidade Virtual">
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false"
+            aria-controls="site-navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Navegação principal">
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html" class="nav-link-item">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html" class="nav-link-item">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="projects.html" class="nav-link-item">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="events.html" class="nav-link-item">Eventos</a>
+                </li>
+
+                <li>
+                    <a href="contact.html" class="nav-link-item">Contato</a>
+                </li>
+
+                <li class="nav-login">
+                    <a href="login.html" class="nav-link-item">
+                        <i class="fa-solid fa-user" aria-hidden="true"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Page Hero -->
+        <section class="contact-hero">
+            <div class="contact-hero_content" data-animate="up">
+                <h1 class="contact-hero_title">Estamos aqui<br>para ajudar</h1>
+                <p class="contact-hero_subtitle">
+                    Precisa de suporte ou tem alguma dúvida? Envie um e-mail, ligue ou preencha
+                    o formulário abaixo e nossa equipe entrará em contato rapidamente.
+                </p>
+                <address class="contact-hero_details">
+                    <ul class="contact-hero_details-list">
+                        <li class="contact-hero_details-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:awvirtual@vr.com.br">awvirtual@vr.com.br</a>
+                        </li>
+                        <li class="contact-hero_details-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+5511999999999">+55 (11) 99999-9999</a>
+                        </li>
+                        <li class="contact-hero_details-item">
+                            <i class="fa-regular fa-clock"></i>
+                            <span>Segunda a Sexta, 9h às 18h (GMT-3)</span>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+
+            <!-- Formulário -->
+            <div class="contact-hero_form-wrapper" data-animate="right" data-animate-delay="1">
+
+                <form class="contact-form" action="#" method="POST">
+                    <div class="contact-form_row">
+                        <div class="contact-form_group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+                        </div>
+                        <div class="contact-form_group">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu sobrenome">
+                        </div>
+                    </div>
+                    <div class="contact-form_group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com">
+                    </div>
+                    <div class="contact-form_group">
+                        <label for="telefone">Telefone</label>
+                        <div class="contact-form_phone">
+                            <span class="contact-form_phone-flag">+55</span>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+                        </div>
+                    </div>
+                    <div class="contact-form_group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5"
+                            placeholder="Escreva sua mensagem..."></textarea>
+                    </div>
+                    <div class="contact-form_privacy">
+                        <input type="checkbox" id="politica" name="politica">
+                        <label for="politica">Ao enviar este formulário, você concorda com nossa <a href="#">política de
+                                privacidade</a>.</label>
+                    </div>
+                    <button type="submit" class="contact-form_submit">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Mapa / Localização -->
+        <section class="contact-location" id="location">
+            <div class="contact-location_map" data-animate="left">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0975665736786!2d-46.65612492374664!3d-23.564610261600998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20900%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1715717000000!5m2!1spt-BR!2sbr"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" title="Localização AW Virtual">
+                </iframe>
+            </div>
+
+            <div class="contact-location_info" data-animate="right" data-animate-delay="1">
+                <div class="contact-location_info-header">
+                    <span class="contact-section_tag">Nossa Localização</span>
+                    <h2 class="contact-section_title">Encontre nossa sede</h2>
+                    <p class="contact-section_text">
+                        Onde ideias ganham vida em realidade virtual. Venha nos visitar em nossa
+                        sede em São Paulo, ou conecte-se conosco online.
+                    </p>
+                </div>
+                <div class="contact-location_address">
+                    <div class="contact-location_address-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <strong>AW Virtual</strong>
+                            <p>Av. Paulista, 900 - Bela Vista</p>
+                            <p>São Paulo, SP - 01310-100</p>
+                        </div>
+                    </div>
+                    <div class="contact-location_address-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <strong>AW Lab — Unidade Innovation</strong>
+                            <p>R. Consolação, 247 - Consolação</p>
+                            <p>São Paulo, SP - 01301-000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Canais de Atendimento -->
+        <section class="contact-channels" id="channels">
+            <div class="contact-channels_header" data-animate="up">
+                <span class="contact-section_tag">Contato</span>
+                <h2 class="contact-section_title">Estamos aqui para ajudar</h2>
+                <p class="contact-section_text">
+                    Explore mais opções e encontre o que você procura — central de ajuda,
+                    suporte ao cliente e equipe de vendas.
+                </p>
+            </div>
+            <ul class="contact-channels_list">
+                <li class="contact-channels_card" data-animate="up" data-animate-delay="1">
+                    <div class="contact-channels_card-icon">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </div>
+                    <h3 class="contact-channels_card-title">Central de Ajuda</h3>
+                    <p class="contact-channels_card-text">Nossa central de ajuda é um ótimo recurso para encontrar
+                        respostas rápidas sobre nossas experiências VR.</p>
+                    <a href="#" class="contact-channels_card-btn">Saiba mais</a>
+                </li>
+                <li class="contact-channels_card" data-animate="up" data-animate-delay="2">
+                    <div class="contact-channels_card-icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <h3 class="contact-channels_card-title">Suporte ao Cliente</h3>
+                    <p class="contact-channels_card-text">Envie uma solicitação para obter ajuda da nossa equipe de
+                        suporte especializada em realidade virtual.</p>
+                    <a href="#" class="contact-channels_card-btn">Saiba mais</a>
+                </li>
+                <li class="contact-channels_card" data-animate="up" data-animate-delay="3">
+                    <div class="contact-channels_card-icon">
+                        <i class="fa-solid fa-handshake"></i>
+                    </div>
+                    <h3 class="contact-channels_card-title">Vendas</h3>
+                    <p class="contact-channels_card-text">Fale com nossa equipe comercial para descobrir como a AW
+                        Virtual pode transformar seu negócio.</p>
+                    <a href="#" class="contact-channels_card-btn">Saiba mais</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <div class="cta_content" data-animate="left">
+                <div class="cta_header">
+                    <h2 class="cta_title">Pronto para sua experiência Imersiva?</h2>
+                    <p class="cta_subtitle">Junte-se a milhares de pessoas que já transformaram sua experiência.
+                        Resultados reais, tecnologia de ponta e suporte dedicado, tudo em um só lugar.</p>
+                </div>
+                <ul class="cta_stats">
+                    <li class="cta_stat" data-animate="up" data-animate-delay="1">
+                        <strong class="cta_stat-value">+500</strong>
+                        <span class="cta_stat-label">Projetos entregues</span>
+                    </li>
+                    <li class="cta_stat" data-animate="up" data-animate-delay="2">
+                        <strong class="cta_stat-value">+10K</strong>
+                        <span class="cta_stat-label">Usuários ativos</span>
+                    </li>
+                    <li class="cta_stat" data-animate="up" data-animate-delay="3">
+                        <strong class="cta_stat-value">95%</strong>
+                        <span class="cta_stat-label">Taxa de satisfação</span>
+                    </li>
+                    <li class="cta_stat" data-animate="up" data-animate-delay="4">
+                        <strong class="cta_stat-value">24/7</strong>
+                        <span class="cta_stat-label">Suporte disponível</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="cta_media" data-animate="scale" data-animate-delay="2">
+                <img src="../assets/img/content/vision_content.png" alt="Pessoa utilizando óculos de realidade virtual">
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter" id="newsletter">
+            <div class="newsletter_content" data-animate="scale">
+                <div class="newsletter_logo">
+                    <img src="../assets/logos/AW.svg" alt="logo-empresa" class="newsletter_logo">
+                </div>
+                <p class="newsletter_text">Inscreva-se para receber novidades sobre experiências imersivas, eventos
+                    exclusivos e acesso antecipado a novas turmas.</p>
+                <form class="newsletter_form" action="#" method="POST">
+                    <div class="newsletter_field">
+                        <input type="email" name="email" placeholder="envie seu email" class="newsletter_input"
+                            required>
+                        <button type="submit" class="newsletter_submit" aria-label="Enviar">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer_grid" data-animate="up">
+            <div class="footer_col">
+                <h3 class="footer_col-title">Experiências VR</h3>
+                <ul class="footer_col-links">
+                    <li><a href="#">Estudo Imersivo</a></li>
+                    <li><a href="#">Projetos e Arquitetura</a></li>
+                    <li><a href="#">Simulações Interativas</a></li>
+                    <li><a href="#">Ultra Gaming Experience</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3 class="footer_col-title">Informações do Evento</h3>
+                <ul class="footer_col-links">
+                    <li><a href="#">Data e programação</a></li>
+                    <li><a href="#">Como participar</a></li>
+                    <li><a href="#">Requisitos para experiência VR</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3 class="footer_col-title">Atendimento</h3>
+                <ul class="footer_col-links footer_col-links--contact">
+                    <li><i class="fa-solid fa-phone"></i><a href="tel:+5511999999999">+55 (11) 99999-9999</a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:awvirtual@vr.com.br">awvirtual@vr.com.br</a>
+                    </li>
+                    <li><i class="fa-regular fa-clock"></i><span>Segunda a Sexta - 9h às 18h</span></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3 class="footer_col-title">Tecnologias Utilizadas</h3>
+                <ul class="footer_col-links">
+                    <li><a href="#">Headsets de última geração</a></li>
+                    <li><a href="#">Ambientes virtuais 360°</a></li>
+                    <li><a href="#">Ferramentas de criação em VR</a></li>
+                    <li><a href="#">Plataformas imersivas</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3 class="footer_col-title">Segurança e Transparência</h3>
+                <ul class="footer_col-links">
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3 class="footer_col-title">Redes Sociais</h3>
+                <div class="footer_social">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
